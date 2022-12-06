@@ -404,7 +404,7 @@ QCefViewPrivate::onContextMenuTriggered(QAction* action)
     auto eventFlags = EVENTFLAG_NONE;
     auto commandId = action->data().toInt();
     osr.contextMenuCallback_->Continue(commandId, eventFlags);
-    osr.contextMenuCallback_.reset();
+    osr.contextMenuCallback_= nullptr;
   }
 }
 
@@ -419,7 +419,7 @@ QCefViewPrivate::onContextMenuDestroyed(QObject* obj)
 
   if (osr.contextMenuCallback_) {
     osr.contextMenuCallback_->Cancel();
-    osr.contextMenuCallback_.reset();
+    osr.contextMenuCallback_=nullptr;
   }
 
   osr.isShowingContextMenu_ = false;
@@ -515,7 +515,7 @@ QCefViewPrivate::onRunCefContextMenu(QPoint pos, CefRefPtr<CefRunContextMenuCall
 void
 QCefViewPrivate::onCefContextMenuDismissed()
 {
-  osr.contextMenuCallback_.reset();
+  osr.contextMenuCallback_ = nullptr;
 }
 
 bool

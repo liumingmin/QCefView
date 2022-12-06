@@ -1,4 +1,5 @@
 cmake -S . ^
+-G "Visual Studio 15 2017"
 -B .build/windows.x86_64 ^
 -A x64 ^
 -DPROJECT_ARCH=x86_64 ^
