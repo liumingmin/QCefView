@@ -2,6 +2,7 @@
 
 ## [Quick Start](https://cefview.github.io/QCefView/)
 
+!important: open generate-win-x86_64.bat file content,edit QTDIR and http_proxy/https_proxy to your config. enjoy!
 
 QCefView is a Qt based QWidget which encapsulates [CEF](https://bitbucket.org/chromiumembedded/cef). With QCefView you can build your application UI in frontend developing way to boost your project. And what's more you can completely decouple the UI and business logic in your project.
 
