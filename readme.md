@@ -2,7 +2,7 @@
 
 ## [Quick Start](https://cefview.github.io/QCefView/)
 
-**!important: open generate-win-x86_64.bat file content,edit QTDIR and http_proxy/https_proxy to your config. enjoy!**
+**!important: Edit generate-win-x86_64.bat file content,modify QTDIR and http_proxy/https_proxy to your config. enjoy!**
 > cef lib version: https://cef-builds.spotifycdn.com/index.html#windows64:89 <br>
  cef source code: https://chromium.googlesource.com/chromium/src/+/refs/tags/89.0.4389.114
 
