@@ -3,8 +3,8 @@
 ## [Quick Start](https://cefview.github.io/QCefView/)
 
 **!important: open generate-win-x86_64.bat file content,edit QTDIR and http_proxy/https_proxy to your config. enjoy!**
-> cef lib version: https://cef-builds.spotifycdn.com/index.html#windows64:89
-> cef source code: https://chromium.googlesource.com/chromium/src/+/refs/tags/89.0.4389.114
+> cef lib version: https://cef-builds.spotifycdn.com/index.html#windows64:89 <br>
+ cef source code: https://chromium.googlesource.com/chromium/src/+/refs/tags/89.0.4389.114
 
 QCefView is a Qt based QWidget which encapsulates [CEF](https://bitbucket.org/chromiumembedded/cef). With QCefView you can build your application UI in frontend developing way to boost your project. And what's more you can completely decouple the UI and business logic in your project.
 
